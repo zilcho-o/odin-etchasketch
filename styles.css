@@ -1,3 +1,31 @@
 body {
     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 3%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.container > div {
+    flex-basis: 6.25%;
+}
+
+.container div:hover {
+    background-color: goldenrod;
 }
